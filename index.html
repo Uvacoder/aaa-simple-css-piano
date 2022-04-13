@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple web piano">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+    <title>Simple Piano</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="icon-container">
+        <img class="icon" id="mute" src="./icons/sound.svg" alt="/icons/sound.svg">
+        <img class="icon" id="notes" src="./icons/notes.svg" alt="/icons/notes.svg">
+      </div>
+      <div class="container">
+        <div class="keyboard"></div>
+        <span class="keyboard-shadow"></span>
+        <div class="key-container">
+          <div class="white-keys">
+            <span class="key corner-key-left key-selector" id="C">C</span>
+            <span class="key key-selector" id="D">D</span>
+            <span class="key key-selector" id="E">E</span>
+            <span class="key key-selector" id="F">F</span>
+            <span class="key key-selector" id="G">G</span>
+            <span class="key key-selector" id="A">A</span>
+            <span class="key key-selector" id="B">B</span>
+            <span class="key key-selector" id="C2">C</span>
+            <span class="key key-selector" id="D2">D</span>
+            <span class="key corner-key-right key-selector" id="E2">E</span>
+          </div>
+          <div class="black-keys">
+            <span class="black-key key-selector" id="Csharp">C#</span>
+            <span class="black-key key-selector" id="Dsharp">D#</span>
+            <span class="black-key-placeholder"></span>
+            <span class="black-key key-selector" id="Fsharp">F#</span>
+            <span class="black-key key-selector" id="Gsharp">G#</span>
+            <span class="black-key key-selector" id="Asharp">A#</span>
+            <span class="black-key-placeholder"></span>
+            <span class="black-key key-selector" id="Csharp2">C#</span>
+            <span class="black-key key-selector" id="Dsharp2">D#</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
